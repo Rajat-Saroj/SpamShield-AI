@@ -8,6 +8,8 @@ from nltk.stem.porter import PorterStemmer
 # Download NLTK data (only needed first time)
 nltk.download('punkt')
 nltk.download('stopwords')
+nltk.download('punkt_tab')
+
 
 ps = PorterStemmer()
 stop_words = set(stopwords.words('english'))
